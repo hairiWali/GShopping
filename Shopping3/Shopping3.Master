@@ -1,0 +1,895 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Shopping3.master.cs" Inherits="Shopping3.Shopping3" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from htmlrefresh.justthemevalley.com/version2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Mar 2018 23:30:55 GMT -->
+<head>
+<!-- Basic page needs -->
+<meta charset="utf-8">
+<!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <![endif]-->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Grocery Shopping</title>
+<meta name="Before buying it, get the feel and look of the Refresh Food & Restaurant Website Template by viewing the demo preview. View the pages, examine the images, click the buttons, explore the features.">
+<meta name="keywords" content="food shop, fresh, modern, Refresh farm, Restaurant farm shop, Refresh food, Refresh shop, agriculture, e-commerce, eco, eco products, farm, farming, food, health, Restaurant, Refresh food, retail, shop, store"/>
+
+<!-- Mobile specific metas  -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon  -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+
+<!-- CSS Style -->
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<!-- font-awesome & simple line icons CSS -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css" media="all">
+
+<!-- owl.carousel CSS -->
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+
+<!-- animate CSS  -->
+<link rel="stylesheet" type="text/css" href="css/animate.css" media="all">-pl
+
+<!-- flexslider CSS -->
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" >
+
+<!-- jquery-ui.min CSS  -->
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+
+<!-- Revolution Slider CSS -->
+<link href="css/revolution-slider.css" rel="stylesheet">
+
+<!-- style CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+</head>
+
+<body>
+    <!-- mobile menu -->
+<div id="mobile-menu">
+  <ul>
+    <li><a href="index.html" class="home1">Home</a>
+      <ul>
+        
+        </ul>
+    </li>
+    
+    <li><a href="contact_us.html">Contact us</a></li>
+    <li><a href="about_us.html">About us</a></li>
+    <li><a href="blog.html">Blog</a>
+      <ul>
+        <li><a href="blog_right_sidebar.html">Blog – Right sidebar </a></li>
+        <li><a href="blog_left_sidebar.html">Blog – Left sidebar </a></li>
+        <li><a href="blog_full_width.html">Blog_ - Full width</a></li>
+        <li><a href="single_post.html">Single post </a></li>
+      </ul>
+    </li>
+    <li><a href="shop_grid.html">Vegetables</a>
+      <ul>
+        <li><a href="#" class="">Accessories</a>
+          <ul>
+            <li><a href="shop_grid.html">.......</a></li>
+            <li><a href="shop_grid.html">.....</a></li>
+            <li><a href="shop_grid.html">.......</a></li>
+            <li><a href="shop_grid.html">........</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Dresses</a>
+          <ul>
+            <li><a href="shop_grid.html">........</a></li>
+            <li><a href="shop_grid.html">.......</a></li>
+            <li><a href="shop_grid.html">........</a></li>
+            <li><a href="shop_grid.html">.......</a></li>
+          </ul>
+        </li>
+        <li> <a href="#">Shoes</a>
+          <ul>
+            <li> <a href="shop_grid.html">......</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#">Jwellery</a>
+          <ul>
+            <li> <a href="shop_grid.html">.......</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#">Dresses</a>
+          <ul>
+            <li> <a href="shop_grid.html">........</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#">Swimwear</a>
+          <ul>
+            <li> <a href="shop_grid.html">.......</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="shop_grid.html">Fruits</a>
+      <ul>
+        <li> <a href="#" class="">Clothing</a>
+          <ul class="level1">
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Coats &amp; Jackets</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Raincoats</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Blazers</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Jackets</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#">Dresses</a>
+          <ul class="level1">
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Casual Dresses</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Evening</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Designer</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Party</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#" class="">Shoes</a>
+          <ul class="level1">
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Sport Shoes</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Casual Shoes</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Leather Shoes</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">canvas shoes</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#">Jackets</a>
+          <ul class="level1">
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Coats</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Formal Jackets</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Leather Jackets</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Blazers</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#">Accesories</a>
+          <ul class="level1">
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Backpacks</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Wallets</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Laptops Bags</a> </li>
+            <li class="level2 nav-6-1-1"> <a href="shop_grid.html">Belts</a> </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="shop_grid.html">Special Gift</a>
+      <ul>
+        <li> <a href="shop_grid.html">Mobiles</a>
+          <ul>
+            <li> <a href="shop_grid.html">iPhone</a> </li>
+            <li> <a href="shop_grid.html">Samsung</a> </li>
+            <li> <a href="shop_grid.html">Nokia</a> </li>
+            <li> <a href="shop_grid.html">Sony</a> </li>
+          </ul>
+        </li>
+        <li> <a href="shop_grid.html" class="">Music &amp; Audio</a>
+          <ul>
+            <li> <a href="shop_grid.html">.....</a> </li>
+            <li> <a href="shop_grid.html">.....</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+          </ul>
+        </li>
+        <li> <a href="shop_grid.html">Accessories</a>
+          <ul>
+            <li> <a href="shop_grid.html">.....</a> </li>
+            <li> <a href="shop_grid.html">.....</a> </li>
+            <li> <a href="shop_grid.html">......</a> </li>
+            <li> <a href="shop_grid.html">.......</a> </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<!-- end mobile menu -->
+<div id="page"> 
+        <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-sm-4 col-md-5 hidden-xs"> 
+              <!-- Default Welcome Message -->
+              <div class="welcome-msg ">Welcome to Sahad Groceries! </div>
+              <span class="phone hidden-sm">Call Us: 070000-72423</span> </div>
+            
+            <!-- top links -->
+            <div class="headerlinkmenu col-lg-8 col-md-7 col-sm-8 col-xs-12">
+              <div class="links">
+                <div class="myaccount"><a title="My Account" href="#"><i class="fa fa-user"></i><span class="hidden-xs">My Account</span></a></div>
+                
+                
+                <div class="login"><a href="Login.aspx"><i class="fa fa-unlock-alt"></i><span class="hidden-xs">Log In</span></a></div>
+              </div>
+              <div class="language-currency-wrapper">
+                <div class="inner-cl">
+                  <div class="block block-language form-language">
+                    <div class="lg-cur"> <span> <img src="images/flag-english.jpg" alt="English"> <span class="lg-fr">English</span> <i class="fa fa-angle-down"></i> </span> </div>
+                    <ul>
+                      <li> <a class="selected" href="#"> <img src="images/flag-default.jpg" alt="flag"> <span>Hausa</span> </a> </li>
+                      
+                     </ul>
+                  </div>
+                </div>
+                
+                <!-- End Default Welcome Message --> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-xs-12"> 
+            <!-- Header Logo -->
+            <div class="logo"><a title="e-commerce" href="index.html"><img alt="e-commerce" src="images/logo.png"></a> </div>
+            <!-- End Header Logo --> 
+          </div>
+          <div class="col-xs-9 col-sm-6 col-md-7"> 
+
+            <!-- Search -->
+            
+            <div class="top-search">
+              <div id="search">
+                <form>
+                  <div class="input-group">
+                    <select class="cate-dropdown hidden-xs" name="category_id">
+                      <option>All Categories</option>
+                      <option>Vegetables</option>
+                      <option>Fruits </option>
+                      <option>Food Cupboard</option>
+                      <option>Dairy</option>
+                      <option>Drinks </option>
+                      <option>Meat </option>
+                      <option>Naija Food </option>
+                      <option>Household</option>
+                       
+                    </select>
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <button class="btn-search" type="button"><i class="fa fa-search"></i></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+            <!-- End Search --> 
+          </div>
+          <!-- top cart -->
+          
+          <div class="col-lg-2 col-xs-3 top-cart">
+            <div class="top-cart-contain">
+              <div class="mini-cart">
+                <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle"> <a href="#">
+                  <div class="cart-icon"><i class="fa fa-shopping-cart"></i></div>
+                  <div class="shoppingcart-inner hidden-xs"><span class="cart-title">Cart</span> <span class="cart-total">0 Item(s)</span></div>
+                  </a></div>
+              <!-- <div>
+                  <div class="top-cart-content">
+                    <div class="block-subtitle hidden-xs">Recently added item(s)</div>
+                    <ul id="cart-sidebar" class="mini-products-list">
+                      <li class="item odd"> <a href="shopping_cart.html" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img07.jpg" alt="Lorem ipsum dolor" width="65"></a>
+                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
+                          <p class="product-name"><a href="shopping_cart.html">Corliflower</a> </p>
+                          <strong>1</strong> x <span class="price">N200.00</span> </div>
+                      </li>
+                      <li class="item even"> <a href="shopping_cart.html" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img11.jpg" alt="Lorem ipsum dolor" width="65"></a>
+                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
+                          <p class="product-name"><a href="shopping_cart.html">Peas</a> </p>
+                          <strong>1</strong> x <span class="price">N230.00</span> </div>
+                      </li>
+                      <li class="item last odd"> <a href="shopping_cart.html" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img10.jpg" alt="Lorem ipsum dolor" width="65"></a>
+                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
+                          <p class="product-name"><a href="shopping_cart.html">Eggplant</a> </p>
+                          <strong>2</strong> x <span class="price">N420.00</span> </div>
+                      </li>
+                    </ul>
+                    <div class="top-subtotal">Subtotal: <span class="price">N850.00</span></div>
+                    <div class="actions">
+                      <button class="btn-checkout" type="button"><i class="fa fa-check"></i><span>Checkout</span></button>
+                      <button class="view-cart" type="button"><i class="fa fa-shopping-cart"></i> <span>View Cart</span></button>
+                    </div>
+                  </div>
+                </div>  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </header>
+  <!-- end header --> 
+  
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-4">
+          <div class="mm-toggle-wrap">
+            <div class="mm-toggle"> <i class="fa fa-align-justify"></i> </div>
+            <span class="mm-label">Categories</span> </div>
+          <div class="mega-container visible-lg visible-md visible-sm">
+            <div class="navleft-container">
+              <div class="mega-menu-title">
+                <h3>Shop by category</h3>
+              </div>
+              <div class="mega-menu-category">
+                <ul class="nav">
+                  <li> <a href="#">Vegetables</a>
+                    <div class="wrap-popup">
+                      <div class="popup">
+                        <div class="row">
+                          <div class="col-md-4 col-sm-6">
+                            <ul class="nav">
+                              <li><a href="shop_grid.html"><span>Cabbage</span></a></li>
+                              <li><a href="shop_grid.html"><span>Cucumber</span></a></li>
+                              <li><a href="shop_grid.html"><span>Lettuce</span> </a></li>
+                              <li><a href="shop_grid.html"><span>Carrot</span> </a></li>
+                              <li> <a href="shop_grid.html"><span>Corliflower</span></a></li>
+                              <li><a href="shop_grid.html"><span>Green Pepper </span></a></li>
+                              <li><a href="shop_grid.html"><span>Bell Peppers</span></a></li>
+                              <li><a href="shop_grid.html"><span>Onions </span></a></li>
+                              <li><a href="shop_grid.html"><span>Tomatoes</span></a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-6 has-sep">
+                            <ul class="nav">
+                              <li><a href="shop_grid.html"><span>Pepper</span></a></li>
+                              <li><a href="shop_grid.html"><span>Red Pepper</span></a></li>
+                              <li><a href="shop_grid.html"><span>Beetroot</span> </a></li>
+                              <li><a href="shop_grid.html"><span>Eggplant</span> </a></li>
+                              <li> <a href="shop_grid.html"><span>Garden Egg</span></a></li>
+                              <li><a href="shop_grid.html"><span>Spring Onion</span></a></li>
+                              <li><a href="shop_grid.html"><span>Peas</span></a></li>
+                              <li><a href="shop_grid.html"><span>Green Beans</span></a></li>
+                              <li><a href="shop_grid.html"><span>Chilli Pepper</span></a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 has-sep hidden-sm">
+                            <div class="custom-menu-right">
+                              <div class="box-banner menu-banner">
+                                <div class="add-right"><a href="#"><img src="images/menu-img4.png" alt=""></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li> <a href="shop_grid.html">Fruits</a>
+                    <div class="wrap-popup column2">
+                      <div class="popup">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            
+                            <ul class="nav">
+                                <li> <a href="shop_grid.html"> Orange </a> </li>
+                              <li> <a href="shop_grid.html"> Watermelon </a> </li>
+                              <li> <a href="shop_grid-2.html"> Banana </a> </li>
+                              <li> <a href="shop_grid.html"> Melon </a> </li>
+                              <li> <a href="shop_grid.html"> Pomegranate </a> </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 has-sep">
+                            
+                            <ul class="nav">
+                                <li> <a href="shop_grid.html"> Plum </a> </li>
+                              <li> <a href="shop_grid.html"> Grapes</a> </li>
+                              <li> <a href="shop_grid.html"> Kiwi</a> </li>
+                              <li> <a href="shop_grid.html"> Pear </a> </li>
+                              <li> <a href="shop_grid.html"> Apple </a> </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-12"> <a class="ads1" href="#"><img class="img-responsive" src="images/menu-img3.jpg" alt=""></a> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li> <a href="#">Food Cupboard</a>
+                    <div class="wrap-popup">
+                      <div class="popup">
+                        <div class="row">
+                          <div class="col-md-4 col-sm-6">
+                            <ul class="nav">
+                               <li><a href="shop_grid.html">Breakfast Cereals</a></li>
+                              <li><a href="shop_grid.html">Condiments and Table sauces</a></li>
+                              <li><a href="shop_grid.html">Cooking Ingredients</a></li>
+                              <li><a href="shop_grid.html">Pasta</a></li>
+                              <li><a href="shop_grid.html">Home Baking</a></li>
+                            </ul>
+                            <br>
+                            <ul class="nav">
+                              <li> <a href="shop_grid.html">Couscous</a> </li>
+                              <li> <a href="shop_grid.html">Wheat & Grains</a> </li>
+                              <li> <a href="shop_grid.html">Rice</a> </li>
+                              <li> <a href="shop_grid.html">Noodles</a> </li>
+                              <li> <a href="shop_grid.html">Beans</a> </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-6 has-sep">
+                            <ul class="nav">
+                               <li> <a href="shop_grid.html">Tubers</a> </li>
+                              <li> <a href="shop_grid.html">Sugar & sweeteners</a> </li>
+                              <li> <a href="shop_grid.html">dsdfsd</a> </li>
+                              <li> <a href="shop_grid.html">kjiui</a> </li>
+                              <li> <a href="shop_grid.html">jkhjkui</a> </li>
+                            </ul>
+                            <br>
+                            <ul class="nav">
+                              <li> <a href="shop_grid.html">vcfgdfty</a> </li>
+                              <li> <a href="shop_grid.html"> fdgdhgfh</a> </li>
+                              <li> <a href="shop_grid.html">jkhytyd</a> </li>
+                              <li> <a href="shop_grid.html">uhjhkjnn</a> </li>
+                              <li> <a href="shop_grid.html">hkjhkj</a> </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 has-sep hidden-sm">
+                            <div class="custom-menu-right">
+                              <div class="box-banner media">
+                                <div class="add-desc">
+                                  <h3>------ <br>
+                                     </h3>
+                                  <div class="price-sale">----</div>
+                                  <a href="#">-----</a> </div>
+                                <div class="add-right"><a href="#"><img src="images/menu-img1.png" alt=""></a></div>
+                              </div>
+                              <div class="box-banner media">
+                                <div class="add-desc">
+                                  <h3>------</h3>
+                                  <div class="price-sale">75 <sup>%</sup><sub>off</sub></div>
+                                  <a href="#">Shopping Now</a> </div>
+                                <div class="add-right"><a href="#"><img src="images/menu-img2.png" alt=""></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li> <a href="shop_grid.html">Drinks</a>
+                    <div class="wrap-popup column1">
+                      <div class="popup">
+                        <ul class="nav">
+                          <li><a href="shop_grid.html"><span>Water</span></a></li>
+                          <li><a href="shop_grid.html"><span>Fizzy Drinks</span></a></li>
+                          <li><a href="shop_grid.html"><span>Soft Drinks</span></a></li>
+                          <li><a href="shop_grid.html"><span>Beverage</span></a></li>
+                          <li><a href="shop_grid.html"><span>Fruit Juices</span></a></li>
+                         
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="#">Meat</a>
+                    <div class="wrap-popup column1">
+                      <div class="popup">
+                        <ul class="nav">
+                          <li> <a href="shop_grid.html"> Steak </a> </li>
+                          <li> <a href="shop_grid.html"> Chicken</a> </li>
+                          <li> <a href="shop_grid.html"> Lamb </a> </li>
+                          <li> <a href="shop_grid.html"> Fish </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nosub"><a href="shop_grid.html">Dairy</a></li>
+                  <li class="nosub"><a href="shop_grid.html">Naija Food</a></li>
+                  <li class="nosub"><a href="shop_grid.html">Household</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8">
+          <div class="mtmegamenu">
+            <ul>
+              <li class="mt-root demo_custom_link_cms">
+                <div class="mt-root-item"><a href="index.html">
+                  <div class="title title_font"><span class="title-text">Home</span></div>
+                  </a></div>
+
+              </li>
+              <li class="mt-root">
+          
+              </li>
+
+              <li class="mt-root">
+                <div class="mt-root-item"><a href="shop_grid.html">
+                  <div class="title title_font"><span class="title-text">Contact Us</span> </div>
+                  </a></div>
+              </li>
+              <li class="mt-root">
+                <div class="mt-root-item"><a href="about_us.html">
+                  <div class="title title_font"><span class="title-text">about us</span></div>
+                  </a></div>
+              </li>
+              <li class="mt-root demo_custom_link_cms">
+               
+
+              </li>
+              <li class="mt-root">
+                <div class="mt-root-item">
+                  <div class="title title_font"><span class="title-text">Best Seller</span></div>
+                </div>
+                <ul class="menu-items col-xs-12">
+                  <li class="menu-item depth-1 product menucol-1-3 withimage">
+                    <div class="product-item">
+                      <div class="item-inner">
+                        <div class="product-thumbnail">
+                          <div class="icon-sale-label sale-left">Sale</div>
+                          <div class="pr-img-area"> <a title="" href="single_product.html">
+                            <figure> <img class="first-img" src="images/products/ferer.png" alt=""> <img class="hover-img" src="images/products/ferer.png" alt=""></figure>
+                            </a>
+                            <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
+                          </div>
+                          <div class="pr-info-area">
+                            <div class="pr-button">
+                              <div class="mt-button add_to_wishlist"> <a href="wishlist.html"> <i class="fa fa-heart"></i> </a> </div>
+                              
+                              <div class="mt-button quick-view"> <a href="quick_view.html"> <i class="fa fa-search"></i> </a> </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item-info">
+                          <div class="info-inner">
+                            <div class="item-title"> <a title="" href="single_product.html">Ferrero Rocher </a> </div>
+                            <div class="item-content">
+                              <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+                              <div class="item-price">
+                                <div class="price-box"> <span class="regular-price"> <span class="price">N2400</span> </span> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-item depth-1 product menucol-1-3 withimage">
+                    <div class="product-item">
+                      <div class="item-inner">
+                        <div class="product-thumbnail">
+                          <div class="icon-sale-label sale-left">Sale</div>
+                          <div class="pr-img-area"> <a title="" href="single_product.html">
+                            <figure> <img class="first-img" src="images/products/persildual.jpg" alt=""> <img class="hover-img" src="images/products/persildual.jpg" alt=""></figure>
+                            </a>
+                            <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
+                          </div>
+                          <div class="pr-info-area">
+                            <div class="pr-button">
+                              <div class="mt-button add_to_wishlist"> <a href="wishlist.html"> <i class="fa fa-heart"></i> </a> </div>
+                              
+                              <div class="mt-button quick-view"> <a href="quick_view.html"> <i class="fa fa-search"></i> </a> </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item-info">
+                          <div class="info-inner">
+                            <div class="item-title"> <a title="" href="single_product.html">Persil Caps. </a> </div>
+                            <div class="item-content">
+                              <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+                              <div class="item-price">
+                                <div class="price-box"> <span class="regular-price"> <span class="price">N2500</span> </span> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-item depth-1 product menucol-1-3 withimage">
+                    <div class="product-item">
+                      <div class="item-inner">
+                        <div class="icon-sale-label sale-left">Sale</div>
+                        <div class="icon-new-label new-right">New</div>
+                        <div class="product-thumbnail">
+                          <div class="icon-sale-label sale-left">Sale</div>
+                          <div class="pr-img-area"> <a title="" href="single_product.html">
+                            <figure> <img class="first-img" src="images/products/celebr.jpg" alt=""> <img class="hover-img" src="images/products/celebr.jpg" alt=""></figure>
+                            </a>
+                            <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
+                          </div>
+                          <div class="pr-info-area">
+                            <div class="pr-button">
+                              <div class="mt-button add_to_wishlist"> <a href="wishlist.html"> <i class="fa fa-heart"></i> </a> </div>
+                              
+                              <div class="mt-button quick-view"> <a href="quick_view.html"> <i class="fa fa-search"></i> </a> </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item-info">
+                          <div class="info-inner">
+                            <div class="item-title"> <a title="" href="single_product.html">Celebrations </a> </div>
+                            <div class="item-content">
+                              <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+                              <div class="item-price">
+                                <div class="price-box"> <span class="regular-price"> <span class="price">N1200</span> </span> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav --> 
+
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+
+
+        </asp:ContentPlaceHolder>
+
+   
+ <!-- Footer -->
+  
+  <footer>
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-7">
+            <form id="newsletter-validate-detail" method="post" action="#">
+              <h3 class="hidden-sm">Sign up for newsletter</h3>
+              <div class="newsletter-inner">
+                <input class="newsletter-email" name='Email' placeholder='Enter Your Email'/>
+                <button class="button subscribe" type="submit" title="Subscribe">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div class="social col-md-4 col-sm-5">
+            <ul class="inline-mode">
+              <li class="social-network fb"><a title="Connect us on Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li class="social-network googleplus"><a title="Connect us on Google+" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li class="social-network tw"><a title="Connect us on Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li class="social-network linkedin"><a title="Connect us on Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li class="social-network rss"><a title="Connect us on Instagram" href="#"><i class="fa fa-rss"></i></a></li>
+              <li class="social-network instagram"><a title="Connect us on Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-xs-12 col-lg-3">
+          <div class="footer-logo"><a href="index.html"><img src="images/footer-logo.png" alt="fotter logo"></a> </div>
+          <p>      </p>
+          <div class="footer-content">
+            <div class="email"> <i class="fa fa-envelope"></i>
+              <p>info@sahadstore.com</p>
+            </div>
+            <div class="phone"> <i class="fa fa-phone"></i>
+              <p>070000-72423</p>
+            </div>
+            <div class="address"> <i class="fa fa-map-marker"></i>
+              <p> Sahad Groceries, Central Business District, 786 Tafawa Balewa Way, Abuja.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-xs-12 col-lg-3 collapsed-block">
+          <div class="footer-links">
+            <h3 class="links-title">Information<a class="expander visible-xs" href="#TabBlock-1">+</a></h3>
+            <div class="tabBlock" id="TabBlock-1">
+              <ul class="list-links list-unstyled">
+                <li><a href="#s">Delivery Information</a></li>
+                <li><a href="#">Discount</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="#">Terms &amp; Condition</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-xs-12 col-lg-3 collapsed-block">
+          <div class="footer-links">
+              <h3 class="links-title">Service<a class="expander visible-xs" href="#TabBlock-4">+</a></h3>
+            <div class="tabBlock" id="TabBlock-4">
+              <ul class="list-links list-unstyled">
+                <li> <a href="account_page.html">Account</a> </li>
+                <li> <a href="wishlist.html">Wishlist</a> </li>
+                <li> <a href="shopping_cart.html">Shopping Cart</a> </li>
+                <li> <a href="#">Return Policy</a> </li>
+            
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-2 col-xs-12 col-lg-3 collapsed-block">
+          <div class="footer-links">
+            <h3 class="links-title">Insider<a class="expander visible-xs" href="#TabBlock-3">+</a></h3>
+            <div class="tabBlock" id="TabBlock-3">
+              <ul class="list-links list-unstyled">
+                
+                <li> <a href="about_us.html">About Us</a> </li>
+                <li> <a href="contact_us.html">Contact Us</a> </li> 
+                <li> <a href="#">My Orders</a> </li>
+               
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-coppyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 coppyright"> Copyright © 2018 <a href="#"> Sahad Groceries </a>. All Rights Reserved. </div>
+          <div class="col-sm-6 col-xs-12">
+        <!--   <div class="payment">
+              <ul>
+                <li><a href="#"><img title="Visa" alt="Visa" src="images/visa.png"></a></li>
+                <li><a href="#"><img title="Paypal" alt="Paypal" src="images/paypal.png"></a></li>
+                <li><a href="#"><img title="Master Card" alt="Master Card" src="images/master-card.png"></a></li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    </div>
+  <a href="#" class="totop"> </a> 
+  
+  <!-- End Footer --> 
+ 
+
+
+
+
+<!-- JS --> 
+
+<!-- jquery js --> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+
+<!-- bootstrap js --> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+<!-- owl.carousel.min js --> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+
+<!-- bxslider js --> 
+<script type="text/javascript" src="js/jquery.bxslider.js"></script> 
+
+<!-- Slider Js --> 
+<script type="text/javascript" src="js/revolution-slider.js"></script> 
+
+<!-- megamenu js --> 
+<script type="text/javascript" src="js/megamenu.js"></script> 
+<script type="text/javascript">
+  /* <![CDATA[ */   
+  var mega_menu = '0';
+  
+  /* ]]> */
+  </script> 
+
+<!-- jquery.mobile-menu js --> 
+<script type="text/javascript" src="js/mobile-menu.js"></script> 
+
+<!--jquery-ui.min js --> 
+<script type="text/javascript" src="js/jquery-ui.js"></script> 
+
+<!-- main js --> 
+<script type="text/javascript" src="js/main.js"></script> 
+
+<!-- countdown js --> 
+<script type="text/javascript" src="js/countdown.js"></script> 
+
+<!-- Revolution Slider --> 
+<script type="text/javascript">
+          jQuery(document).ready(function() {
+                 jQuery('.tp-banner').revolution(
+                  {
+                      delay:9000,
+                      startwidth:1920,
+                      startheight:790,
+                      hideThumbs:10,
+
+                      navigationType:"bullet",							
+                      navigationStyle:"preview1",
+
+                      hideArrowsOnMobile:"on",
+                      
+                      touchenabled:"on",
+                      onHoverStop:"on",
+                      spinner:"spinner4"
+                  });
+          });
+</script> 
+
+<!-- Hot Deals Timer 1--> 
+<script type="text/javascript">
+      var dthen1 = new Date("12/25/16 11:59:00 PM");
+      start = "08/04/15 03:02:11 AM";
+      start_date = Date.parse(start);
+      var dnow1 = new Date(start_date);
+      if(CountStepper>0)
+          ddiff= new Date((dnow1)-(dthen1));
+      else
+          ddiff = new Date((dthen1)-(dnow1));
+      gsecs1 = Math.floor(ddiff.valueOf()/1000);
+      
+      var iid1 = "countbox_1";
+      CountBack_slider(gsecs1,"countbox_1", 1);
+  </script>
+      <script>
+
+        $(document).ready(function () {
+            $("#loginButton").click(function () {
+                $.post("WebService.asmx/Login",
+                    {
+                        email_ln: $("#emmail_login").val(),
+                        password_ln: $("#password_login").val()
+                    },
+                    function (data, status) {
+                        if (data === 'Yes') {
+                            localStorage['emailUser'] = $("#emmail_login").val();
+                            window.location.href = 'myProfile.aspx';
+
+                        }
+                        else {
+                            alert("Baaad");
+
+                        }
+                    });
+            })
+
+
+            $("#signUpButton").click(function () {
+                $.post("WebService.asmx/AddUserTwo",
+                    {
+                        email: $("#emmail_register").val(),
+                        firstname: $("#firstname_register").val(),
+                        lastname: $("#lastname_register").val(),
+                        phone: $("#phone_register").val(),
+                        password_ln: $("#password_register").val()
+                    },
+                    function (data, status) {
+                        if (data === '1') {
+                            alert("Goooooood");
+
+                        }
+                        else {
+                            alert("Baaad");
+
+                        }
+                    });
+            })
+        })
+    </script>
+    <script src="js/myProfileScript.js"></script>
+</body>
+
+
+</html>
