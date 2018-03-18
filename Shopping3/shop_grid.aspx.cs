@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Shopping3
 {
-    public partial class Account : System.Web.UI.Page
+    public partial class shop_grid : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -11,7 +11,7 @@ namespace Shopping3
 {
 
 
-    public partial class Account
+    public partial class shop_grid
     {
     }
 }

@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Web;
-using Microsoft.CSharp;
+using System.Web.UI.WebControls;
+using System.Text;
+
 using System.Data;
 using System.Net.Mail;
 using System.Configuration;
 using System.Security.Cryptography;
 using System.IO;
-using System.Text;
+using System.Web.Script.Serialization;
+using System.Collections.Generic;
+using System.Web.Mail;
 
 namespace Shopping3
 {
@@ -44,7 +48,53 @@ namespace Shopping3
             }
             return JSONString.ToString();
         }
+        public static string DataTableToJSONWithJavaScriptSerializer(DataTable table)
+        {
+            JavaScriptSerializer jsSerializer = new JavaScriptSerializer();
+            List<Dictionary<string, object>> parentRow = new List<Dictionary<string, object>>();
+            Dictionary<string, object> childRow;
+            foreach (DataRow row in table.Rows)
+            {
+                childRow = new Dictionary<string, object>();
+                foreach (DataColumn col in table.Columns)
+                {
+                    childRow.Add(col.ColumnName, row[col]);
+                }
+                parentRow.Add(childRow);
+            }
+            return jsSerializer.Serialize(parentRow);
+        }
 
+        public static string RandomPassword()
+        {
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(4, true));
+            builder.Append(RandomNumber(1000, 9999));
+            builder.Append(RandomString(2, false));
+            return builder.ToString();
+        }
+        // Generate a random string with a given size  
+        public static string RandomString(int size, bool lowerCase)
+        {
+            StringBuilder builder = new StringBuilder();
+            Random random = new Random();
+            char ch;
+            for (int i = 0; i < size; i++)
+            {
+                ch = Convert.ToChar(Convert.ToInt32(Math.Floor(26 * random.NextDouble() + 65)));
+                builder.Append(ch);
+            }
+            if (lowerCase)
+                return builder.ToString().ToLower();
+            return builder.ToString();
+        }
+
+        // Generate a random number between two numbers  
+        public static int RandomNumber(int min, int max)
+        {
+            Random random = new Random();
+            return random.Next(min, max);
+        }
         public static string DataTableToJSONObject(DataTable table)
         {
             var JSONString = new StringBuilder();
@@ -109,7 +159,7 @@ namespace Shopping3
             bool status = false;
             try
             {
-                MailMessage email = new MailMessage();
+                System.Net.Mail.MailMessage email = new System.Net.Mail.MailMessage();
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
                 // set up the Gmail server
@@ -119,7 +169,7 @@ namespace Shopping3
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 email.IsBodyHtml = true;
                 email.Subject = subjectOfMail;
-                email.From = new MailAddress("bigdaddy2030@gmail.com", "yankari");
+                email.From = new MailAddress(ConfigurationManager.AppSettings["mail"].ToString(), "");
                 email.Body = message;
                 email.To.Add(mailToSendTo.Trim());
                 smtp.Send(email);

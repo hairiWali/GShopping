@@ -12,7 +12,7 @@
 
                 }
                 else {
-                    alert("Baaad");
+                    alert("error");
 
                 }
     })

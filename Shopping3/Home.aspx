@@ -9,7 +9,7 @@
                         <!-- SLIDE 1 -->
                         <li data-transition="slidehorizontal" data-slotamount="5" data-masterspeed="700">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slider/slider-img1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                            <img src="images/slider/slider-img1.png" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption very_big_white skewfromrightshort fadeout"
@@ -18,7 +18,7 @@
                                  data-speed="500"
                                  data-start="1200"
                                  data-easing="Circ.easeInOut"
-                                 style=" font-size:70px; font-weight:800; color:#ffa200;">Good for<span style=" color:#000;"> your health</span></div>
+                                 style=" font-size:70px; font-weight:800; color:#ffa200;">Sahad<span style=" color:#000;"> Groceries</span></div>
                             
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption tp-caption medium_text skewfromrightshort fadeout"
@@ -29,7 +29,7 @@
                                  data-speed="500"
                                  data-start="1200"
                                  data-easing="Power4.easeOut"
-                                 style=" font-size:20px; font-weight:500; color:#666;">Sale upto 25% all products</div>
+                                 style=" font-size:20px; font-weight:500; color:#fff;">Sale upto 30% on selected items</div>
 
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption customin tp-resizeme rs-parallaxlevel-0"
@@ -46,7 +46,7 @@
                                  data-elementdelay="0.1"
                                  data-endelementdelay="0.1"
                                  data-linktoslide="next"
-                                 style="border: 2px solid #69bd43; font-size:14px; background-color:#4caf50; color:#fff; z-index: 12; max-width: auto; max-height: auto; white-space: nowrap; letter-spacing:1px;"><a href='#' class='largebtn slide1'>View more </a></div>
+                                 style="border: 2px solid #69bd43; font-size:14px; background-color:#4caf50; color:#fff; z-index: 12; max-width: auto; max-height: auto; white-space: nowrap; letter-spacing:1px;"><a href='#' class='largebtn slide1'>Shop now </a></div>
                         </li>
 
                         <!-- SLIDE 2 -->
@@ -163,7 +163,7 @@
                                 <div class="icon-wrapper"><i class="fa fa-truck"></i></div>
                                 <div class="service-wrapper">
                                     <h3>FREE DELIVERY</h3>
-                                    <p>On order over N50k</p>
+                                    <p>On order over N40k</p>
                                 </div>
                             </div>
                         </div>
@@ -171,10 +171,10 @@
                     <div class="col col-md-3 col-sm-6 col-xs-12 ">
                         <div class="block-wrapper return">
                             <div class="text-des">
-                                <div class="icon-wrapper"><i class="fa fa-refresh"></i></div>
+                                <div class="icon-wrapper"><i class="fa fa-money"></i></div>
                                 <div class="service-wrapper">
-                                    <h3>-------</h3>
-                                    <p>------------ </p>
+                                    <h3>EARN GREAT REWARDS</h3>
+                                    <p>Each time you order </p>
                                 </div>
                             </div>
                         </div>
@@ -434,7 +434,7 @@
                                                                 <div class="icon-new-label new-right">New</div>
                                                                 <div class="pr-img-area">
                                                                     <a title="Ipsums Dolors Untra" href="single_product.html">
-                                                                        <figure> <img class="first-img" src="images/products/img03.jpg" alt=""> <img class="hover-img" src="images/products/img03.jpg" alt=""></figure>
+                                                                        <figure> <img class="first-img" src="images/products/guava.png" alt=""> <img class="hover-img" src="images/products/guava.png" alt=""></figure>
                                                                     </a>
                                                                     <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                                                 </div>
@@ -448,11 +448,14 @@
                                                             </div>
                                                             <div class="item-info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a title="" href="single_product.html">Strawberry </a> </div>
+                                                                    <div class="item-title"> <a title="" href="single_product.html">Guava</a> </div>
                                                                     <div class="item-content">
                                                                         <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                                         <div class="item-price">
-                                                                            <div class="price-box"> <span class="regular-price"> <span class="price">N1300</span> </span> </div>
+                                                                            <div class="price-box">
+                                                                                <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N350 </span> </p>
+                                                                                <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N450 </span> </p>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -465,7 +468,7 @@
                                                                 <div class="icon-sale-label sale-left">Sale</div>
                                                                 <div class="pr-img-area">
                                                                     <a title="" href="single_product.html">
-                                                                        <figure> <img class="first-img" src="images/products/img08.jpg" alt=""> <img class="hover-img" src="images/products/img08.jpg" alt=""></figure>
+                                                                        <figure> <img class="first-img" src="images/products/tangerine.png" alt=""> <img class="hover-img" src="images/products/tangerine.png" alt=""></figure>
                                                                     </a>
                                                                     <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                                                 </div>
@@ -479,13 +482,13 @@
                                                             </div>
                                                             <div class="item-info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a title="" href="single_product.html">Melon </a> </div>
+                                                                    <div class="item-title"> <a title="" href="single_product.html">Tangerine </a> </div>
                                                                     <div class="item-content">
                                                                         <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                                         <div class="item-price">
                                                                             <div class="price-box">
-                                                                                <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N700 </span> </p>
-                                                                                <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N850 </span> </p>
+                                                                                <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N300 </span> </p>
+                                                                                <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N450 </span> </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -498,7 +501,7 @@
                                                             <div class="product-thumbnail">
                                                                 <div class="pr-img-area">
                                                                     <a title="" href="single_product.html">
-                                                                        <figure> <img class="first-img" src="images/products/img01.jpg" alt=""> <img class="hover-img" src="images/products/img01.jpg" alt=""></figure>
+                                                                        <figure> <img class="first-img" src="images/products/redapple.png" alt=""> <img class="hover-img" src="images/products/redapple.png" alt=""></figure>
                                                                     </a>
                                                                     <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                                                 </div>
@@ -512,12 +515,12 @@
                                                             </div>
                                                             <div class="item-info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a title="" href="single_product.html">Bell Pepper </a> </div>
+                                                                    <div class="item-title"> <a title="" href="single_product.html">Red Apple</a> </div>
                                                                     <div class="item-content">
                                                                         <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                                         <div class="item-price">
                                                                             <div class="price-box">
-                                                                                <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N900 </span> </p>
+                                                                                <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N1050 </span> </p>
                                                                                 <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N1200 </span> </p>
                                                                             </div>
                                                                         </div>
@@ -531,7 +534,7 @@
                                                             <div class="product-thumbnail">
                                                                 <div class="pr-img-area">
                                                                     <a title="" href="single_product.html">
-                                                                        <figure> <img class="first-img" src="images/products/img04.jpg" alt=""> <img class="hover-img" src="images/products/img04.jpg" alt=""></figure>
+                                                                        <figure> <img class="first-img" src="images/products/kiwi.jpg" alt=""> <img class="hover-img" src="images/products/kiwi.jpg" alt=""></figure>
                                                                     </a>
                                                                     <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                                                 </div>
@@ -545,11 +548,11 @@
                                                             </div>
                                                             <div class="item-info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a title="" href="single_product.html">Pear </a> </div>
+                                                                    <div class="item-title"> <a title="" href="single_product.html">Kiwi </a> </div>
                                                                     <div class="item-content">
                                                                         <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                                         <div class="item-price">
-                                                                            <div class="price-box"> <span class="regular-price"> <span class="price">N800</span> </span> </div>
+                                                                            <div class="price-box"> <span class="regular-price"> <span class="price">N1000</span> </span> </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -561,7 +564,7 @@
                                                             <div class="product-thumbnail">
                                                                 <div class="pr-img-area">
                                                                     <a title="" href="single_product.html">
-                                                                        <figure> <img class="first-img" src="images/products/img05.jpg" alt=""> <img class="hover-img" src="images/products/img05.jpg" alt=""></figure>
+                                                                        <figure> <img class="first-img" src="images/products/pawpaw.png" alt=""> <img class="hover-img" src="images/products/pawpaw.png" alt=""></figure>
                                                                     </a>
                                                                     <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                                                 </div>
@@ -575,13 +578,13 @@
                                                             </div>
                                                             <div class="item-info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a title="" href="single_product.html">Peach </a> </div>
+                                                                    <div class="item-title"> <a title="" href="single_product.html">Pawpaw </a> </div>
                                                                     <div class="item-content">
                                                                         <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                                         <div class="item-price">
                                                                             <div class="price-box">
-                                                                                <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N750 </span> </p>
-                                                                                <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N950 </span> </p>
+                                                                                <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N550 </span> </p>
+                                                                                <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N750 </span> </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -594,7 +597,7 @@
                                                             <div class="product-thumbnail">
                                                                 <div class="pr-img-area">
                                                                     <a title="" href="single_product.html">
-                                                                        <figure> <img class="first-img" src="images/products/img06.jpg" alt=""> <img class="hover-img" src="images/products/img06.jpg" alt=""></figure>
+                                                                        <figure> <img class="first-img" src="images/products/banana.png" alt=""> <img class="hover-img" src="images/products/banana.png" alt=""></figure>
                                                                     </a>
                                                                     <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                                                 </div>
@@ -608,11 +611,11 @@
                                                             </div>
                                                             <div class="item-info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a title="" href="single_product.html"> Beetroot</a> </div>
+                                                                    <div class="item-title"> <a title="" href="single_product.html"> Banana</a> </div>
                                                                     <div class="item-content">
                                                                         <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                                         <div class="item-price">
-                                                                            <div class="price-box"> <span class="regular-price"> <span class="price">N1000</span> </span> </div>
+                                                                            <div class="price-box"> <span class="regular-price"> <span class="price">400</span> </span> </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -684,7 +687,7 @@
                             <a href="#"><img src="images/banner_staic2.png" alt=""></a>
                             <div class="box-hover">
                                 <div class="banner-title">Fresh Chicken</div>
-                                <span>Save up to 45% off</span>
+                                <span>Save up to 30% off</span>
                             </div>
                         </div>
                     </div>
@@ -710,12 +713,12 @@
             </div>
         </div>
 
-        <!--Household-products-->
+        <!--Everyday-products-->
 
         <div class="container">
             <div class="special-products">
                 <div class="page-header">
-                    <h2>Household</h2>
+                    <h2>Everyday Essentials</h2>
                 </div>
                 <div class="special-products-pro">
                     <div class="slider-items-products">
@@ -728,7 +731,7 @@
                                             <div class="icon-new-label new-right">New</div>
                                             <div class="pr-img-area">
                                                 <a title="" href="single_product.html">
-                                                    <figure> <img class="first-img" src="images/products/img08.jpg" alt=""> <img class="hover-img" src="images/products/img08.jpg" alt=""></figure>
+                                                    <figure> <img class="first-img" src="images/products/oats.jpg" alt=""> <img class="hover-img" src="images/products/oats.jpg" alt=""></figure>
                                                 </a>
                                                 <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                             </div>
@@ -742,77 +745,76 @@
                                         </div>
                                         <div class="item-info">
                                             <div class="info-inner">
-                                                <div class="item-title"> <a title="" href="single_product.html">Melon </a> </div>
+                                                <div class="item-title"> <a title="" href="single_product.html">Quaker Oats </a> </div>
                                                 <div class="item-content">
                                                     <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                     <div class="item-price">
-                                                        <div class="price-box"> <span class="regular-price"> <span class="price">N950</span> </span> </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-item">
-                                    <div class="item-inner">
-                                        <div class="product-thumbnail">
-                                            <div class="pr-img-area">
-                                                <a title="" href="single_product.html">
-                                                    <figure> <img class="first-img" src="images/products/img13.jpg" alt=""> <img class="hover-img" src="images/products/img13.jpg" alt=""></figure>
-                                                </a>
-                                                <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
-                                            </div>
-                                            <div class="pr-info-area">
-                                                <div class="pr-button">
-                                                    <div class="mt-button add_to_wishlist"> <a href="wishlist.html"> <i class="fa fa-heart"></i> </a> </div>
-                                                    
-                                                    <div class="mt-button quick-view"> <a href="quick_view.html"> <i class="fa fa-search"></i> </a> </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item-info">
-                                            <div class="info-inner">
-                                                <div class="item-title"> <a title="" href="single_product.html">Dry Fruit </a> </div>
-                                                <div class="item-content">
-                                                    <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
-                                                    <div class="item-price">
-                                                        <div class="price-box">
-                                                            <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N950 </span> </p>
-                                                            <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N1050 </span> </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-item">
-                                    <div class="item-inner">
-                                        <div class="product-thumbnail">
-                                            <div class="pr-img-area">
-                                                <a title="" href="single_product.html">
-                                                    <figure> <img class="first-img" src="images/products/img09.jpg" alt=""> <img class="hover-img" src="images/products/img09.jpg" alt=""></figure>
-                                                </a>
-                                                <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
-                                            </div>
-                                            <div class="pr-info-area">
-                                                <div class="pr-button">
-                                                    <div class="mt-button add_to_wishlist"> <a href="wishlist.html"> <i class="fa fa-heart"></i> </a> </div>
-                                                    
-                                                    <div class="mt-button quick-view"> <a href="quick_view.html"> <i class="fa fa-search"></i> </a> </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item-info">
-                                            <div class="info-inner">
-                                                <div class="item-title"> <a title="" href="single_product.html">Mango </a> </div>
-                                                <div class="item-content">
-                                                    <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
-                                                    <div class="item-price">
                                                         <div class="price-box">
                                                             <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N850 </span> </p>
-                                                            <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N950 </span> </p>
+                                                            <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N1000 </span> </p>
                                                         </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="item-inner">
+                                        <div class="product-thumbnail">
+                                            <div class="pr-img-area">
+                                                <a title="" href="single_product.html">
+                                                    <figure> <img class="first-img" src="images/products/peakevap.jpg" alt=""> <img class="hover-img" src="images/products/peakevap.jpg" alt=""></figure>
+                                                </a>
+                                                <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
+                                            </div>
+                                            <div class="pr-info-area">
+                                                <div class="pr-button">
+                                                    <div class="mt-button add_to_wishlist"> <a href="wishlist.html"> <i class="fa fa-heart"></i> </a> </div>
+                                                    
+                                                    <div class="mt-button quick-view"> <a href="quick_view.html"> <i class="fa fa-search"></i> </a> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-info">
+                                            <div class="info-inner">
+                                                <div class="item-title"> <a title="" href="single_product.html">Peak Evaporated </a> </div>
+                                                <div class="item-content">
+                                                    <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="item-price">
+                                                        <div class="price-box"> <span class="regular-price"> <span class="price">N130</span> </span> </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="item-inner">
+                                        <div class="product-thumbnail">
+                                            <div class="pr-img-area">
+                                                <a title="" href="single_product.html">
+                                                    <figure> <img class="first-img" src="images/products/cway.jpg" alt=""> <img class="hover-img" src="images/products/cway.jpg" alt=""></figure>
+                                                </a>
+                                                <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
+                                            </div>
+                                            <div class="pr-info-area">
+                                                <div class="pr-button">
+                                                    <div class="mt-button add_to_wishlist"> <a href="wishlist.html"> <i class="fa fa-heart"></i> </a> </div>
+                                                    
+                                                    <div class="mt-button quick-view"> <a href="quick_view.html"> <i class="fa fa-search"></i> </a> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-info">
+                                            <div class="info-inner">
+                                                <div class="item-title"> <a title="" href="single_product.html">Cway water</a> </div>
+                                                <div class="item-content">
+                                                    <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                     <div class="item-price">
+                                                        <div class="price-box"> <span class="regular-price"> <span class="price">N800</span> </span> </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -826,7 +828,7 @@
                                         <div class="product-thumbnail">
                                             <div class="pr-img-area">
                                                 <a title="" href="single_product.html">
-                                                    <figure> <img class="first-img" src="images/products/img12.jpg" alt=""> <img class="hover-img" src="images/products/img12.jpg" alt=""></figure>
+                                                    <figure> <img class="first-img" src="images/products/cous.png" alt=""> <img class="hover-img" src="images/products/cous.png" alt=""></figure>
                                                 </a>
                                                 <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                             </div>
@@ -840,13 +842,17 @@
                                         </div>
                                         <div class="item-info">
                                             <div class="info-inner">
-                                                <div class="item-title"> <a title="" href="single_product.html">Cherry </a> </div>
+                                                <div class="item-title"> <a title="" href="single_product.html">Cous cous </a> </div>
                                                 <div class="item-content">
                                                     <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
-                                                    <div class="item-price">
-                                                        <div class="price-box"> <span class="regular-price"> <span class="price">N800</span> </span> </div>
+                                                        <div class="item-price">
+                                                        <div class="price-box">
+                                                            <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N420 </span> </p>
+                                                            <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N550 </span> </p>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                       
+                                                    </div>
                                             </div>
                                         </div>
                                     </div>
@@ -857,7 +863,7 @@
                                             <div class="icon-new-label new-left">New</div>
                                             <div class="pr-img-area">
                                                 <a title="" href="single_product.html">
-                                                    <figure> <img class="first-img" src="images/products/img05.jpg" alt=""> <img class="hover-img" src="images/products/img05.jpg" alt=""></figure>
+                                                    <figure> <img class="first-img" src="images/products/salt.jpg" alt=""> <img class="hover-img" src="images/products/salt.jpg" alt=""></figure>
                                                 </a>
                                                 <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                             </div>
@@ -871,14 +877,11 @@
                                         </div>
                                         <div class="item-info">
                                             <div class="info-inner">
-                                                <div class="item-title"> <a title="" href="single_product.html">Peach </a> </div>
+                                                <div class="item-title"> <a title="" href="single_product.html">Salt</a> </div>
                                                 <div class="item-content">
                                                     <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                     <div class="item-price">
-                                                        <div class="price-box">
-                                                            <p class="special-price"> <span class="price-label">Special Price</span> <span class="price"> N950 </span> </p>
-                                                            <p class="old-price"> <span class="price-label">Regular Price:</span> <span class="price"> N1050 </span> </p>
-                                                        </div>
+                                                        <div class="price-box"> <span class="regular-price"> <span class="price">N100</span> </span> </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -890,7 +893,7 @@
                                         <div class="product-thumbnail">
                                             <div class="pr-img-area">
                                                 <a title="" href="single_product.html">
-                                                    <figure> <img class="first-img" src="images/products/img06.jpg" alt=""> <img class="hover-img" src="images/products/img06.jpg" alt=""></figure>
+                                                    <figure> <img class="first-img" src="images/products/sugar.jpg" alt=""> <img class="hover-img" src="images/products/sugar.jpg" alt=""></figure>
                                                 </a>
                                                 <button type="button" class="add-to-cart-mt"> <i class="fa fa-shopping-cart"></i><span> Add to Cart</span> </button>
                                             </div>
@@ -904,11 +907,11 @@
                                         </div>
                                         <div class="item-info">
                                             <div class="info-inner">
-                                                <div class="item-title"> <a title="" href="single_product.html">Beetroot </a> </div>
+                                                <div class="item-title"> <a title="" href="single_product.html">Sugar </a> </div>
                                                 <div class="item-content">
                                                     <div class="rating"> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
                                                     <div class="item-price">
-                                                        <div class="price-box"> <span class="regular-price"> <span class="price">N1000</span> </span> </div>
+                                                        <div class="price-box"> <span class="regular-price"> <span class="price">N350</span> </span> </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -936,7 +939,7 @@
                                             courteous and timely too!
                                         </p>
                                         <div class="thumb"> <img src="images/testimonials-img3.png" alt="testimonials img"> </div>
-                                        <strong class="name"> Samira</strong> <strong class="designation"> Journalist</strong>
+                                        <strong class="name"> Ummi</strong> <strong class="designation"> Nutritionist</strong>
                                     </div>
                                     <div class="holder">
                                         <p>
@@ -973,28 +976,20 @@
                 <!-- our clients Slider -->
                 <div class="col-md-6">
                     <div class="our-clients">
-                        <div class="slider-items-products">
-                            <div id="our-clients-slider" class="product-flexslider hidden-buttons">
-                                <div class="slider-items slider-width-col6">
-
-                                    <!-- Item -->
-                                    <div class="item"> <a href="#"><img src="images/brand1.png" alt="Image"></a> <a href="#"><img src="images/brand2.png" alt="Image"></a> <a href="#"><img src="images/brand3.png" alt="Image"></a></div>
-                                    <!-- End Item -->
-                                    <!-- Item -->
-                                    <div class="item"> <a href="#"><img src="images/brand4.png" alt="Image"></a> <a href="#"><img src="images/brand5.png" alt="Image"></a> <a href="#"><img src="images/brand6.png" alt="Image"></a> </div>
-                                    <!-- End Item -->
-                                    <!-- Item -->
-                                    <div class="item"> <a href="#"><img src="images/brand7.png" alt="Image"></a> <a href="#"><img src="images/brand8.png" alt="Image"></a> <a href="#"><img src="images/brand1.png" alt="Image"></a></div>
-                                    <!-- End Item -->
-                                    <!-- Item -->
-                                    <div class="item"> <a href="#"><img src="images/brand2.png" alt="Image"></a> <a href="#"><img src="images/brand3.png" alt="Image"></a> <a href="#"><img src="images/brand4.png" alt="Image"></a></div>
-                                    <!-- End Item -->
-
-                                </div>
+                       
+                        <div class="jtv-banner3">
+                            <div class="jtv-banner3-inner">
+                                <a href="#"><img src="images/clickcoll.png" alt=""></a>
+                               
                             </div>
                         </div>
                     </div>
+
+                    
                 </div>
+ 
+
+                
             </div>
         </div>
 
@@ -1023,7 +1018,7 @@
                             <div class="hover_content">
                                 <div class="hover_data">
                                     <div class="title"> Best Quality</div>
-                                    <div class="desc-text"> Vegetables, Delicious fruit </div>
+                                    <div class="desc-text"> Vegetables,Delicious Fruit</div>
                                 </div>
                             </div>
                         </div>

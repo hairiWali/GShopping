@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from htmlrefresh.justthemevalley.com/version2/account_page.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Mar 2018 23:38:55 GMT -->
+<!-- Mirrored from htmlrefresh.justthemevalley.com/version2/shopping_cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Mar 2018 23:38:51 GMT -->
 <head>
 <!-- Basic page needs -->
 <meta charset="utf-8">
@@ -38,20 +38,26 @@
 <!-- animate CSS  -->
 <link rel="stylesheet" type="text/css" href="css/animate.css" media="all">
 
+<!-- flexslider CSS -->
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" >
+
 <!-- jquery-ui.min CSS  -->
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
 
-
+<!-- Revolution Slider CSS -->
+<link rel="stylesheet" type="text/css" href="css/revolution-slider.css">
 
 <!-- style CSS -->
 <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+
 </head>
 
-<body class="shop_grid_page">
+<body class="shopping_cart_page">
 <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]--> 
-
+  
 <!-- mobile menu -->
 <div id="mobile-menu">
   <ul>
@@ -254,7 +260,7 @@
 </div>
 <!-- end mobile menu -->
 <div id="page"> 
- <!-- Header -->
+  <!-- Header -->
   <header>
     <div class="header-container">
      <div class="header-top">
@@ -837,69 +843,88 @@
     </div>
   </nav>
   <!-- end nav -->  
-  <!-- Breadcrumbs -->
-  
-  <div class="breadcrumbs">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <ul>
-            <li class="home"> <a title="Go to Home Page" href="index.html">Home</a><span>&raquo;</span></li>
-            <li><strong>My Account</strong></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Breadcrumbs End --> 
   
   <!-- Main Container -->
   <section class="main-container col1-layout">
     <div class="main container">
-      
-        
-        <div class="page-content">
+      <div class="col-main">
+        <div class="cart">
           
-            <div class="account-login">
-              
-   
-          
-              <div class="box-authentication">
-                <h4>Login</h4>
-               <p class="before-login-text">Welcome back! Sign in to your account</p>
-                <label for="emmail_login">Email address<span class="required">*</span></label>
-                <input id="emmail_login" type="text" class="form-control">
-                <label for="password_login">Password<span class="required">*</span></label>
-                <input id="password_login" type="password" class="form-control">
-                <p class="forgot-pass"><a href="#">Lost your password?</a></p>
-                <button class="button"><i class="fa fa-lock"></i>&nbsp; <span>Login</span></button><label class="inline" for="rememberme">
-													<input type="checkbox" value="forever" id="rememberme" name="rememberme"> Remember me
-												</label>
+          <div class="page-content page-order"><div class="page-title">
+            <h2>Shopping Cart</h2>
+          </div>
+            
+            
+            <div class="order-detail-content">
+              <div class="table-responsive">
+                <table class="table table-bordered cart_summary">
+                  <thead>
+                    <tr>
+                      <th class="cart_product">Product</th>
+                      <th>Description</th>
+                      <th>Avail.</th>
+                      <th>Unit price</th>
+                      <th>Qty</th>
+                      <th>Total</th>
+                      <th  class="action"><i class="fa fa-trash-o"></i></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="cart_product"><a href="#"><img src="images/products/img01.jpg" alt="Product"></a></td>
+                      <td class="cart_description"><p class="product-name"><a href="#">Ipsums Dolors Untra </a></p>
+                        <small><a href="#">Color : Red</a></small><br>
+                        <small><a href="#">Size : M</a></small></td>
+                      <td class="availability in-stock"><span class="label">In stock</span></td>
+                      <td class="price"><span>$49.88</span></td>
+                      <td class="qty"><input class="form-control input-sm" type="text" value="1"></td>
+                      <td class="price"><span>$49.88</span></td>
+                      <td class="action"><a href="#"><i class="icon-close"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td class="cart_product"><a href="#"><img src="images/products/img02.jpg" alt="Product"></a></td>
+                      <td class="cart_description"><p class="product-name"><a href="#">Ipsums Dolors Untra </a></p>
+                        <small><a href="#">Color : Green</a></small><br>
+                        <small><a href="#">Size : XL</a></small></td>
+                      <td class="availability out-of-stock"><span class="label">No stock</span></td>
+                      <td class="price"><span>$00.00</span></td>
+                      <td class="qty"><input class="form-control input-sm" type="text" value="0"></td>
+                      <td class="price"><span>00.00</span></td>
+                      <td class="action"><a href="#"><i class="icon-close"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td class="cart_product"><a href="#"><img src="images/products/img03.jpg" alt="Product"></a></td>
+                      <td class="cart_description"><p class="product-name"><a href="#">Ipsums Dolors Untra </a></p>
+                        <small><a href="#">Color : Blue</a></small><br>
+                        <small><a href="#">Size : S</a></small></td>
+                      <td class="availability in-stock"><span class="label">In stock</span></td>
+                      <td class="price"><span>$99.00</span></td>
+                      <td class="qty"><input class="form-control input-sm" type="text" value="2"></td>
+                      <td class="price"><span>$188.00</span></td>
+                      <td class="action"><a href="#"><i class="icon-close"></i></a></td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td colspan="2" rowspan="2"></td>
+                      <td colspan="3">Total products (tax incl.)</td>
+                      <td colspan="2">$237.88 </td>
+                    </tr>
+                    <tr>
+                      <td colspan="3"><strong>Total</strong></td>
+                      <td colspan="2"><strong>$237.88 </strong></td>
+                    </tr>
+                  </tfoot>
+                </table>
               </div>
-              <div class="box-authentication">
-                <h4>Register</h4><p>Create your very own account</p> 											
-                <label for="emmail_register">Email address<span class="required">*</span></label>
-                <input id="emmail_register" type="text" class="form-control">
-                <button class="button"><i class="fa fa-user"></i>&nbsp; <span>Register</span></button>
-                
-                <div class="register-benefits">
-												<h5>Sign up today and you will be able to :</h5>
-												<ul>
-													<li>Speed your way through checkout</li>
-													<li>Track your orders easily</li>
-													<li>Keep a record of all your purchases</li>
-												</ul>
-											</div>
-              </div>
-   
-    
+              <div class="cart_navigation"> <a class="continue-btn" href="#"><i class="fa fa-arrow-left"> </i>&nbsp; Continue shopping</a> <a class="checkout-btn" href="#"><i class="fa fa-check"></i> Proceed to checkout</a> </div>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
   </section>
-  <!-- Main Container End --> 
-  <!-- Footer -->
+   <!-- Footer -->
   
   <footer>
     <div class="footer-newsletter">
@@ -1009,7 +1034,7 @@
       </div>
     </div>
   </footer>
-  <a href="#" class="totop"> </a> </div>
+  <a href="#" class="totop"> </a>  </div>
 
 <!-- End Footer --> 
 <!-- JS --> 
@@ -1052,5 +1077,5 @@
  
 </body>
 
-<!-- Mirrored from htmlrefresh.justthemevalley.com/version2/account_page.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Mar 2018 23:38:55 GMT -->
+<!-- Mirrored from htmlrefresh.justthemevalley.com/version2/shopping_cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Mar 2018 23:38:51 GMT -->
 </html>
